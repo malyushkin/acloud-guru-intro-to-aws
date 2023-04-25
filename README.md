@@ -9,3 +9,4 @@
 ## Chapter 3
 1. Seeking Security and Identity
 1. Illustrating IAM
+1. Summarizing Secrets Manager

@@ -25,4 +25,6 @@ content:
         title: Seeking Security and Identity
       - code: 3-2-illustrating-iam
         title: Illustrating IAM
+      - code: 3-3-summarizing-secrets-manager
+        title: Summarizing Secrets Manager
 
