@@ -1,0 +1,176 @@
+Hello Cloud Gurus,
+and welcome to my 10,000 foot overview of AWS.
+In my What Is AWS lecture,
+I showed you a list of AWS services.
+I'd like to give you a little bit more structure
+to that list by showing you the AWS Console,
+so we get a true 10,000 foot overview.
+So here it is,
+the ever-changing, ever-expanding AWS Management Console.
+And this is where we'll get our overview.
+The first thing you'll see is a search window.
+Because there are so many services,
+it's simply easiest to jump straight to
+the one that you need.
+Below that we have some Build a solution quick links
+and some documentation,
+which has some step-by-step guides
+to learn all about different AWS services.
+If we click up here, we have a complete list of all of them.
+And we'll revisit the most important of these
+throughout the course.
+But as an overview, I'll show you through them all now.
+And just keep in mind that this list can change over time,
+so it might already look different to what you see here.
+Don't forget we have that Search bar at the top as well
+if you can't find anything.
+It starts with Compute,
+and Compute refers to services
+which are related to running applications
+or processing things with computer power.
+With AWS, this can refer to virtual servers
+and serverless computing,
+which I'll cover in a later lecture.
+Next, we have Storage, S3, I've already mentioned
+as one of the first services that AWS had available.
+And we also have things like EFS, Storage Gateway,
+and AWS Backup.
+Then we have databases, RDS and DynamoDB being
+the 2 most popular here,
+and ones that you will learn about soon.
+Following this, we have Migration and Transfer,
+and these are a set of services
+which make it easier to move to AWS
+from your traditional server room.
+There are specific services
+that will help you move your databases, your servers,
+and sync over all your data as well.
+Then we go into Networking and Content Delivery,
+all computers and most services in AWS need to exist
+inside a network,
+just like your phone or laptop connect to
+a local wifi network at home or work to access the internet.
+VPC is the cornerstone of this in AWS.
+It's their virtual private cloud
+where all your services exist.
+There are also content delivery services like CloudFront
+and DNS services like Route 53.
+Don't be too intimidated by all of these names,
+I will cover the most important ones
+in their own lectures soon.
+Below this we have Developer Tools,
+and these all make life easier for developers
+to write software and host it on AWS.
+There's services to host your programming code,
+to automatically build it, and to automatically install it,
+or deploy it to your servers.
+Then we have the Robotics section for AWS Robot Maker.
+And this is a service that helps
+with robotics application development.
+I'm going to scroll back up,
+and we have Customer Enablement services,
+the most important being Support,
+where you can contact AWS themselves
+should you need any assistance.
+Then we have Blockchain for AWS Managed Blockchain
+for all your cryptocurrency and blockchain fans out there.
+There's a Satellite section for the Ground Station
+that I mentioned in the introduction.
+And then we've got some Quantum Technologies,
+this is a section for Amazon Bracket,
+which provides a development environment
+to design quantum algorithms,
+something that I mostly don't have a single clue about.
+And then we move on to Management and Governance,
+which is quite important.
+This includes Organizations, CloudWatch, Auto Scaling,
+CloudFormation, CloudTrail, and all of these other services
+which really help you manage all of your AWS
+and even On-Premises infrastructure in some cases.
+They are really powerful and complex products
+and I'll be talking about a few of them
+in this course as well.
+Scrolling down a bit more, we have Media Services,
+all the things related to media streaming, processing,
+and transcoding, which is converting audio and video.
+Now we're going to scroll all the way back up again,
+we have Machine Learning.
+These are all the services
+that implement machine learning in some way
+from automatically determining
+if the code your programmers are writing is good,
+to image recognition, automatic language translation,
+and automatic car driving.
+Then we come down to Analytics,
+a very important tool in some industries
+that deal with a lot of data.
+Amazon Redshift is AWS's data lake service,
+and Athena lets you query petabytes of data.
+We'll come down a little bit more
+to Security, Identity, and Compliance.
+This is a huge section,
+AWS have many services in this space.
+Security is extremely important for anyone using the cloud,
+even more so than someone hosting things
+in their own server room.
+You need to ensure everything you put out there
+is kept secure.
+AWS has services that help with authentication,
+storing passwords, automatically detecting network breaches,
+or noncompliance with predefined security policies
+that you have defined.
+They also have a few firewalls in there too.
+Now we're going to scroll back up to the last column,
+we have some Front-end Web and Mobile services
+which help out people making websites
+and mobile applications.
+There's Augmented Reality and Virtual Reality section,
+which for the moment only contains Amazon Samarian,
+which is a managed service which lets you create
+and run 3D, AR, and VR applications.
+Then we have Application Integration,
+which helps your AWS services
+and applications work together.
+SQS probably being the one you've heard about at this point,
+which I mentioned in the introduction lecture as well.
+Then we have Cost Management.
+These are the services that help you save money
+and see where all your money is going in your AWS account,
+so you have your Cost Explorer and your AWS Budgets.
+Then we have Customer Engagement,
+which are services you can use to connect to your customers.
+There's a few business applications here,
+such as Alexa for Business,
+and Chime, Amazon's video conferencing software.
+Then we have End User Computing
+and Workspaces falls under this,
+which is a service that gives you
+a completely virtual desktop that you can work on
+from anywhere in the world.
+Then we have the mighty Internet of Things
+and a whole bunch of services related to helping you build
+and maintain your own Internet of Things devices.
+Coming towards the end,
+we have some Game Development services,
+which right now is just Amazon Gamelift,
+a dedicated game server hosting solution.
+And right at the bottom is Containers,
+which is another topic
+I will do an individual lecture on shortly
+to explain what it's all about.
+What a list.
+If that hasn't overwhelmed you, then I'm not sure what will.
+And by the time you watch this video,
+I don't doubt for a second that AWS have added one
+or even 10 more things to that list of services.
+They are always iterating
+and they are always finding new services
+to create for their customers.
+Throughout this course as I mentioned,
+I will be covering a lot of these at a high level
+to show you what they do and how easy AWS
+have made it to achieve some very powerful things.
+Okay, that's all for my overview,
+thank you for watching.
+If you have any questions, please let me know,
+otherwise feel free to move on to the next lesson.
