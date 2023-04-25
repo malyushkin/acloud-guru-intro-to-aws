@@ -1,0 +1,85 @@
+Hello, Cloud Gurus and welcome to a brief history of AWS.
+I'll begin by addressing a rumor that frequently goes around
+about how AWS came to be.
+Some people think that AWS was created
+because Amazon had excess computing capacity
+from the servers that run amazon.com
+and that they wanted to make more use of those servers.
+But it's not true,
+with the co-author of the initial proposal
+of AWS, Benjamin Black, responding to it with
+"Why will that not die?
+"It's totally false."
+The real story is that Benjamin Black
+and his manager, Chris Pinkham were exploring ways
+to efficiently scale up their infrastructure.
+And what I mean by that is
+how could they easily make their website or application work
+when accessed by a lot of people at the same time?
+And traditionally to do this,
+you would simply install a lot of servers
+in your server room,
+enough that you would be able to successfully serve
+the amount of customers you have
+when you hit the peak of your traffic.
+So say you need 10 servers to serve 1,000 customers
+and your peak traffic during a sale period like Black Friday
+is 5,000 customers.
+Then you need 50 servers in your server room at all times.
+What they explored was
+methods of separating the applications
+from the infrastructure.
+If they could achieve this,
+it would be easier to manage both the applications
+and the infrastructure running them.
+And they realized they might be a lot of value in doing that
+even to people outside Amazon.
+And they might be able to sell the infrastructure
+as a service.
+They wrote up the idea
+and it made its way all the way to Jeff Bezos
+who greenlit the proposal.
+And then they led the team to build elastic compute cloud
+or EC2, which is a virtual machine as a service,
+one of AWS's first products released in 2006.
+Exact timelines are difficult to find,
+but Amazon S3 does appear to be the first service
+released by AWS in March of 2006.
+This was followed by Amazon simple queue service
+or SQS in July.
+And then the EC2 service that I just mentioned
+was released in August of 2006.
+SQS had actually been around
+and in use by Amazon internally since 2004.
+And they realized it could be released as a managed service,
+so they did so in 2006.
+From then on more services were launched each year,
+then each month and lately we are seeing product launches
+or updates every single week of the year.
+October, 2009 brought Amazon RDS a database as a service.
+December, 2010 brought Route 53 a DNS service.
+January, 2012, brought DynamoDB
+an extremely powerful NoSQL database.
+And by July, 2015, we had Code Pipeline,
+a DevOps orchestration tool.
+And this continues all the way to re-Invent 2020,
+they announced a new service called DevOps Guru,
+and it will continue through the months and years ahead.
+I don't think AWS will stop releasing new services
+anytime soon.
+Now I will be going into more detail
+about the most important of these services
+throughout this course as well.
+So don't worry if you aren't too sure
+what I'm talking about just yet.
+I will use this opportunity to point you
+to our series AWS this week,
+where I and a few of our other instructors
+cover what AWS have released in the past 7 days.
+And I don't think we've ever not had something
+to talk about.
+AWS are always releasing or updating something.
+Alright, that's all for our brief history.
+Thanks for watching.
+If you have any questions, please let me know.
+Otherwise feel free to move on to our 10,000 Foot Overview.
