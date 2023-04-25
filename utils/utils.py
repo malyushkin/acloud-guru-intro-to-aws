@@ -6,7 +6,7 @@ Templates
 """
 TITLE_H = "# {title}\n"
 SECTION_H = "## {title}\n"
-SUBSECTION_H = "1. {title}\n\n"
+SUBSECTION_H = "1. {title}\n"
 
 
 def write_info(yml, name="README", ext="md"):
