@@ -23,4 +23,6 @@ content:
     content:
       - code: 3-1-seeking-security-and-identity
         title: Seeking Security and Identity
+      - code: 3-2-illustrating-iam
+        title: Illustrating IAM
 

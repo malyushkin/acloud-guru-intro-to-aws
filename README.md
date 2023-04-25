@@ -8,3 +8,4 @@
 1. Regions and Availability Zones
 ## Chapter 3
 1. Seeking Security and Identity
+1. Illustrating IAM

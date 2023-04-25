@@ -1,0 +1,99 @@
+Hello, Cloud Gurus,
+and welcome to "Illustrating IAM" or in the longer form,
+AWS Identity and Access Management.
+IAM is a way to manage who can access what throughout
+the AWS services and resources in your account.
+You can create users and groups
+and set permissions on both of them to either allow
+or deny access to AWS resources via use of policies.
+IAM is free, and it's included in every AWS account.
+2 of the main features of IAM are users and roles.
+So I'm going to explain them for you here.
+We'll start with IAM users.
+Once you create your AWS account,
+you are given a root user login.
+This is the main account
+you log in to your AWS resources with.
+You are then able to create an IAM user,
+which is another name for a username and password
+that can log in to your AWS account,
+but you get to decide what they have access to.
+Say, for example, you are the owner of your company,
+and you have a team of 10 developers, 5 salespeople,
+2 testers, and a release engineer.
+And then you have a bunch of services that they all
+have to connect to in different levels of access.
+You are able to give your developers access
+to your development service.
+You can give sales access to sales reports,
+stored in cloud storage.
+The testers can be given access to the development servers
+and the test servers.
+And your release engineer needs access to all of it.
+With IAM, you can create specific policies
+to define what a user can access.
+Users can also be added to groups, making this even easier.
+Policies can also be applied to groups.
+So you don't have to give access
+to all of your developers individually.
+You can simply create a group,
+which has access to your development servers,
+and then add all of your developers to that group.
+Policies are usually created in the IAM console,
+which has both a visual editor and a JSON editor.
+I'll show you a quick example of a JSON policy here.
+This is the policy required to give
+a user administrator access to your entire account.
+You can see, it has an effect, which is Allow.
+The action is *, which means they can do everything,
+and the Resource is that it applies to everything as well.
+This is the basic format of a policy.
+The Effect is either Allow or Deny,
+then what can be done,
+and then what it applies to.
+If you want a policy that lets your users store files
+in AWS's storage service called S3, which we'll cover soon,
+the policy would look something like this.
+Firstly, it has ListBucket.
+And the bucket is where files are stored in S3.
+ListBucket lets you see the bucket.
+Then, there's a permission allowing you to put
+or get objects from inside that bucket.
+And that's applied to the bucket.
+And then a / and another *,
+meaning, you can access everything in there.
+IAM user policies can get extremely complex.
+And someone could probably create a course just to teach
+you about all the different things you can do with them.
+Next up, I want to teach you about roles.
+Roles work similar to what I just described.
+They allow you to delegate access to a user or a service.
+But what's different about roles
+is that not only can a user use or assume the role,
+a service can assume the role as well.
+This may seem confusing, and sometimes it is.
+But the simplest explanation I can think of is that you may
+be running a virtual machine, which hosts your website.
+And as part of your website,
+you have a database running in an AWS database service.
+You can create a role which allows someone
+to access your database service.
+And then you can tell your virtual machines
+to use that role.
+And when they assume that role,
+it grants them permission to them,
+and only them, to access your database.
+It's an extra layer of security
+above just the usual username and password
+or firewall that may normally protect your services.
+So in essence, it's much like granting a user permissions,
+but both users and services themselves can use the role.
+Roles also become a lot more complex and more powerful
+as they can also enable users from different AWS accounts
+to use the resources in your account.
+This is much beyond the scope of this "Introduction
+to AWS" course though.
+So that is a quick summary of Amazon IAM.
+Thank you for watching.
+If you have any questions, please let me know.
+Otherwise, feel free to move on to the next lecture.
