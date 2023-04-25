@@ -1,0 +1,21 @@
+---
+code: acloud-guru-intro-to-aws
+title: Introduction to AWS
+content:
+  - code: chapter-1
+    title: Chapter 1
+    content:
+      - code: 1-1-course-introduction
+        title: Course Introduction
+  - code: chapter-2
+    title: Chapter 2
+    content:
+      - code: 2-1-what-is-aws
+        title: What is AWS
+      - code: 2-2-a-brief-history-of-aws
+        title: A Brief History of AWS
+      - code: 2-3-the-10000-foot-overview
+        title: The 10,000 Foot Overview
+      - code: 2-4-regions-and-availability-zones
+        title: Regions and Availability Zones
+
