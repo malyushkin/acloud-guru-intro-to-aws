@@ -1,0 +1,96 @@
+Hello Cloud Gurus,
+and welcome to my lesson on What is AWS.
+We covered this very briefly in the introduction lecture,
+now let's go into a bit more detail.
+If we begin with the Cloud itself,
+the Cloud can be broadly referred to as someone else's
+computer, but more realistically it's a collection
+of services which create a platform.
+These services might relate to virtual servers,
+data storage, networking, machine learning,
+security, analytics, media services, databases, and more.
+All of these services come with a very specific feature set
+aimed at making your organization's life easier
+by hosting them for you,
+instead of you having to do it yourself
+in your own server room or office building.
+You can pick where, in the world,
+you want to run these services and access them remotely.
+And you can fine tune them to do whatever you require,
+and you can pay less than you normally would
+hosting it yourself.
+As I mentioned in our introduction,
+if you'd like to learn more about what the Cloud is
+please check out my resource link
+to our course on introduction to Cloud computing.
+In their own words, "AWS is the world's most comprehensive
+"and broadly adopted cloud platform,
+"offering over 175 fully featured services
+"from data centers globally.
+"Millions of customers,
+"including the fastest growing startups,
+"largest enterprises and leading government agencies
+"are using AWS to lower costs,
+"become more agile and innovate faster."
+And I do agree with their assessment.
+AWS currently holds roughly 32% of the Cloud computing
+market share, with second and third place
+going to Microsoft Azure, at 19, and Google Cloud at seven.
+AWS is the world leader in Cloud computing,
+with millions of customers using their products.
+But why are they the leader?
+Well, they are the oldest in the market.
+They launched Amazon EC2, their virtual service service,
+in 2006, and it took several years
+before any other Cloud competitor responded.
+They continue to iterate and launch new services, to now,
+where they currently have over 175 services.
+So let's take a look.
+This is the list of most of their services.
+I have no doubt many have been launched
+since this list was compiled.
+These services were specifically created
+to support a wide range of technologies, industries,
+and use cases from a single service,
+which lets you store files and retrieve them,
+to a fully managed Ground Station,
+which lets you control satellites.
+And I'm not joking about that last one.
+AWS launched AWS Ground Station to the world in May, 2019.
+So a very large customer base, a lot of services,
+which you can do almost anything you need,
+you can see why the world is moving to AWS.
+And one thing I haven't even mentioned yet is pricing.
+AWS uses pay-as-you-go pricing.
+You can use one of their servers for a minute
+and only be charged for that minute.
+Actually, since 2017, a few AWS services
+actually charge you by the second,
+with most services only requiring a 60 second minimum.
+You can literally use a server for 83 seconds,
+and you are only charged for using it for 83 seconds.
+In fact, AWS announced one of their services, called Lambda,
+has switched to charging you by the millisecond,
+which is amazing.
+AWS's pricing model has made them a very popular choice.
+That is not to say the other Cloud providers
+aren't thriving too.
+As I mentioned, AWS have 32% of the market,
+Microsoft Azure has 19% and Google Cloud holds 7%.
+Close behind that, Alibaba is at 6%
+and all others combined are at 36%.
+So while AWS have a sizable lead,
+the others aren't too far behind.
+Your choice in Cloud provider
+will likely come down to what you're familiar with,
+what you're educated in, and likely what the organization
+you work for chooses to use.
+If you're studying AWS, because your company chose it,
+you are in very good company,
+and it's great to have you here.
+I'm going to go into more detail about the most popular
+AWS services throughout this course,
+so I'll finish this introduction here.
+Thank you for watching.
+If you have any questions please let me know,
+otherwise feel free to move on to the next lesson.
