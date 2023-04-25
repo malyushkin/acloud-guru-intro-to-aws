@@ -1,0 +1,59 @@
+Hello, Cloud Gurus and welcome to Seeking Security and Identity.
+This is the first lesson of our service summary chapters.
+Congratulations for making it through the introduction,
+and I hope you're ready to get started.
+The first videos in each section will be an overview of the particular pillar.
+In this case, security and identity, as it pertains to AWS,
+and then we'll look at a few of the most important services that relate to that
+particular pillar. In this lesson today,
+we're going to talk about security and identity. So let's get started.
+Probably the most important part of moving to or building your applications in
+the cloud, is security.
+You need to make sure your data and infrastructure is protected,
+and you need to ensure that any potential threats against them are being
+detected. In regards to identity,
+you need to make sure that those who do have access to your systems,
+can only access what they need to access. AWS of course,
+have various solutions to implement what I just mentioned,
+which can be used in different ways to do different things.
+So let's take a look at the services that they have available.
+Regarding data protection,
+a service to discover and protect your sensitive data, is Amazon Macie.
+A service to store and manage encryption keys is AWS Key Management
+Service.
+A service for hardware-based key storage and regulatory compliance is
+AWS CloudHSM. A service to provision,
+manage, and deploy SSL and TLS security certificates,
+is AWS Certificates Manager. And a service to rotate, manage,
+and retrieve secrets like passwords is AWS Secrets Manager.
+Now let's take a look at infrastructure protection.
+A service for denial of service protection is AWS Shield.
+A service to filter malicious website traffic,
+is AWS Web Application Firewall or WAF.
+And a service to centrally manage firewall rules is AWS Firewall Manager.
+Let's take a look at threat detection.
+A service that automatically detects threats is Amazon Guard Duty.
+A service to analyze application security is Amazon Inspector.
+A service to record and evaluate configurations of your AWS resources
+is AWS Config.
+And a service to track user activity and API usage in your account is
+AWS CloudTrail.
+And finally identity management services.
+A service to securely manage access to your AWS accounts,
+services and resources is AWS Identity and Access Management,
+better known as IAM.
+A service to implement cloud single sign-on is AWS Single sign-on.
+A service to manage identity inside applications you
+have made such as users logging in is Amazon Cognito.
+And a service to implement and manage Microsoft Active Directory is AWS
+Directory Service.
+And a service to centrally govern and manage multiple AWS accounts in
+one place is AWS Organizations.
+You can see in just the small pillar of security and identity,
+I've already listed 18 different services AWS have available for you,
+to protect your AWS accounts and all of the resources within them.
+AWS has many solutions available, no matter what you are trying to achieve.
+Now,
+we're going to go a little bit more in-depth with a few of these services now.
+So thank you for watching. If you have any questions, please let me know.
+Otherwise feel free to move on to the next lesson.
