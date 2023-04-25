@@ -1,0 +1,59 @@
+Hello, Cloud Gurus and welcome to Demonstrating Directory Service.
+Do you log into a computer before using it? I'm sure you do most.
+If not all people will have a username and password to be able to log into
+their computer, whether it be a home laptop or a work PC.
+When an organization sets up their office computers or laptops for their workers
+to log in and do their work, they will generally use a directory,
+which is a database of people.
+It contains all the login information for all the users on the network who might
+log into that computer. When you type your username and password,
+they are checked against this directory to see if you're allowed in.
+And it also has extra features such as the ability to implement security
+policies and configure the PC that you're logging into in a certain way,
+like automatically putting folders on your desktop,
+which linked to shared storage spaces on your company file server.
+Users can also be put into groups,
+so the desktop shortcuts that you see might be different to the desktop
+shortcuts that the CEO sees when he logs into his computer.
+Currently,
+Microsoft windows is the dominating desktop operating system in the world.
+In July, 2020,
+it still holds 77.74% of the market share,
+which is huge.
+And these translates into a huge market share in the offices around the world,
+which might be even higher because more people use windows at work.
+This means a lot of people log into windows, computers around the world.
+To cater for this,
+Microsoft have provided a directory service called Microsoft Active Directory.
+It has been included with windows service software since 2000,
+so 20 years now. And there are tens of thousands of companies using it,
+maybe even more, so you can see why AWS might want to help out.
+And this is where AWS Directory Service comes in.
+Directory Service is a managed service offering from AWS,
+which provides the directories for you without having to run the servers
+yourself.
+AWS Directory Service can provide a specific managed Microsoft active
+directory,
+as well as a simple active directory option for when you don't need all the
+options that Microsoft active directory provides.
+And it also has an AD connector,
+which is used to allow your on-premises users to log into their AWS
+applications with their active directory credentials. And not only that,
+usually to ensure your users can always log in,
+you would normally have to build multiple servers or running a
+distributed active directory, so it continues to work if one server fails.
+If anything fails,
+the service automatically replaces the failed server with a working one.
+Also,
+in addition to the benefits of having your active directory hosted for you,
+AWS managed Microsoft Active Directory is also compatible with other
+AWS services.
+This means your users can also use their account credentials for Amazon
+Chime,
+the video conferencing software and your databases can even use it to which are
+the ones listed here as RDS.
+So a whole bunch of services that can use the service too, which is awesome.
+So that's about it for AWS Directory Service. It's a managed solution,
+so you don't have to run your own directory service from Microsoft Active
+Directory. Thank you for watching. If you have any questions,
+please let me know. Otherwise feel free to move on.

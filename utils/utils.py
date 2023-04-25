@@ -5,7 +5,7 @@ Templates
 * _H - headers
 """
 TITLE_H = "# {title}\n"
-SECTION_H = "## {title}\n"
+SECTION_H = "\n## {title}\n"
 SUBSECTION_H = "1. {title}\n"
 
 
