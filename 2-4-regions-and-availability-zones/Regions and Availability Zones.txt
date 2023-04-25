@@ -1,0 +1,56 @@
+Hello, Cloud Gurus and welcome to Regions and Availability Zones.
+AWS has the concept of a region, which is a physical location,
+somewhere in the world, where they put their data centers,
+which have the servers that host all of their services. Currently,
+AWS has regions in North America, South America, Europe,
+the Middle East, Africa, and the Asia Pacific.
+Now I'm going to show you where all of these regions are. We start with Ohio,
+Oregon, North California, North Virginia,
+and then we have GovCloud West and GovCloud East,
+which are 2 services for government departments to use.
+The general public cant use those 2. Then there's Canada Central,
+Sau Paulo, Frankfurt, London,
+Paris, Bahrain, Ireland, Milan,
+Stockholm, Cape Town, Singapore,
+Beijing, Sydney, Tokyo,
+Seoul Ningxia, Osaka,
+which is a local region, Mumbai and Hong Kong. And as they're
+ever-growing, while I was making this slide,
+a new Melbourne Australia region has been announced as well.
+Now let's have a look at availability zones. Inside a region,
+we have what AWS calls, availability zones.
+Each region has multiple isolated and physically separate
+availability zones in a geographic area.
+They all have independent power, cooling, and physical security,
+and they're all connected to each other via redundant, ultra high speed,
+and low latency networks. So we'll look at my example here,
+and don't take these too seriously because AWS don't advertise exactly where
+their data centers are to keep them more secure.
+So this is just a complete guess. So let's say in the Sydney region,
+which is AP Southeast 2,
+AWS have 6 data centers around the city.
+So there's our 6, and AWS will group them into the North,
+the South and the West availability zones,
+and will give them each a name,
+but these names are not shared between users or AWS accounts.
+For example, in my account,
+I will have the West availability zone called AP Southeast 2
+a. North will be 2 b and South will be 2 c,
+but in your account, this won't be the same. It's possible it could be the same,
+but they are randomly generated. So in your account,
+you will be 2 c in the West, 2 a in the North,
+and 2 b in the South.
+This occurs in every availability zone around the world to ensure that people
+aren't always just using availability zone a or b for their infrastructure.
+They want everything spread out across all of their availability zones.
+Now what's the purpose of having these availability zones? Well redundancy.
+If you split your AWS services across all of these availability zones,
+you will protect your AWS workloads from any issues that might arise in a single
+data center.
+It's unlikely that all six of these data centers will lose power at the same
+time, or be hit with any kind of local infrastructure issue.
+AWS make these available so you can protect your infrastructure against any
+issues that may occur. Okay, that's all for regions and availability zones,
+and for the introduction section of this course.
+Thank you for watching. If you have any questions, please let me know.
+Otherwise, feel free to move on to the next section.
