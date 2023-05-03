@@ -1,0 +1,57 @@
+Hello, Cloud Gurus and welcome to Considering Compute.
+AWS describe their own compute capability as compute for any
+workload. Instances, containers, and serverless computing.
+In this section,
+we will cover all three of these things so you know exactly what they are about.
+Compute of course, refers to using a computer, to process something.
+From adding two numbers together,
+to hosting multi availability zone multi-region fault tolerant version
+of tic-tac-toe,
+or even an online pet store compute is where the processing happens.
+I'll go into the differences between all the different types of compute in their
+respective lectures to follow this one, but for now,
+let's just take a look at the services that AWS offer in this pillar.
+Regarding instances also known as virtual machines,
+a service that provides secure and resizeable virtual machines in the cloud
+is known as Amazon Elastic Compute Cloud, also known as EC2.
+A service which helps you run fault tolerant workloads for up to 90% of the
+normal price of EC2 is Amazon EC2 Spot.
+A service which can automatically add or remove computing capacity to meet your
+changes in computing demand is called Amazon EC2 Auto Scaling.
+And a service which provides a really easy to use cloud platform to build an
+application or website is called Amazon LightSail.
+Moving on to containers,
+and I will explain what containers are in detail in their own lecture.
+A service to run secure, reliable,
+and scalable containers is Amazon Elastic Container Service also known
+as ECS.
+A service to store manage and deploy container images is Amazon Elastic
+Container Registry, also known as ECR.
+And a fully managed Kubernetes service is Amazon Elastic Kubernetes Service,
+also known as EKS. Regarding serverless, and again,
+we'll have a whole lecture on this,
+is a service which lets you run code without servers,
+and that is AWS Lambda.
+There are also some services called edge services,
+which I won't go into during my lessons, but I'll briefly go over them here.
+A service called AWS Outposts,
+which lets you run your AWS services on your own servers, instead of Amazons.
+There's a service that lets you bring a lot of data into AWS and that is called
+the Snow Family. These are devices you can order to put files on them.
+And then they're shipped back to Amazon and loaded into your AWS account.
+They have devices from the size of a portable hard disk to a full semi-trailer
+full of storage disks.
+The snow family has a solution useful for any business trying to move to the
+cloud.
+There's also a service which lets you access AWS services from 5g devices
+without having to go via the internet, which is super fast,
+and that's AWS wavelength.
+There's a service which assists in migrating your VMware workloads to AWS,
+and that's called VMware Cloud on AWS.
+And finally a service which lets you run that latency sensitive applications
+closer to end users, and that's called AWS Local Zones.
+As you can see, AWS have once again provided many different services,
+which can cater to any need that you might have, which involves compute.
+Now I'm going to leave this here and save the details for each service in their
+specific lessons, so thank you for watching. If you have any questions,
+please let me know. Otherwise feel free to move on to the next lesson.

@@ -29,5 +29,8 @@ content:
         title: Summarizing Secrets Manager
       - code: 3-4-demonstrating-directory-service
         title: Demonstrating Directory Service
-
-
+  - code: chapter-4
+    title: Chapter 4
+    content:
+      - code: 4-1-considering-compute
+        title: Considering Compute
