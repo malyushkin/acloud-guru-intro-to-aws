@@ -14,3 +14,6 @@
 1. Illustrating IAM
 1. Summarizing Secrets Manager
 1. Demonstrating Directory Service
+
+## Chapter 4
+1. Considering Compute
