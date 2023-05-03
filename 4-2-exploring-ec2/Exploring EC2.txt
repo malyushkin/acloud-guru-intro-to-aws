@@ -1,0 +1,64 @@
+Hello, Cloud Gurus and welcome to Exploring EC2. In this lesson,
+we're going to learn what EC2 is, so let's get started.
+EC2 stands for Elastic Compute Cloud.
+This is an AWS service that allows you to rent virtual computers to use,
+which are called EC2 instances.
+You can choose lots of different EC2 types as well,
+which all have different amounts of CPU, memory, storage, types, and speeds.
+There are instances which are compute optimized for when you need
+high-performance processes. There are memory optimized,
+when you need lots of ram.
+Say if you're building an application that processes large amounts of data in
+memory. And there's also storage optimized instances,
+which are designed for workloads that need to read and write to hard disks
+really quickly. These aren't the only types of optimized instances.
+There are way too many to list here,
+but they are the main ones that you will encounter.
+There are also a few different ways that you pay for these instances.
+The most common is on-demand where you pay by the hour, or by the second,
+depending on which instance type you use. With no long-term commitments.
+This is one of the main features of EC2 and something I use all the time to
+explain why cloud services are incredible. Let's take a look.
+Say you have a task which usually takes you a day. So 24 hours,
+and I'll represent that with this green bar,
+this will cost you 24 multiplied by the hourly instance costs.
+Let's say that's 10 cents. So it will cost you $2 40 to complete.
+If this task can be broken down into smaller tasks,
+which take an hour to complete, you would have 24,
+one hour tasks to run.
+Due to EC2 allowing you pay by the hour.
+This means you can run it on 24 EC2 instances at the same time for one
+hour,
+and you will pay exactly the same as you would pay to run it on one instance for
+24 hours. You achieved the same thing,
+but it took you one hour instead of 24 hours.
+And the cost to your organization was the same amount of money.
+This is the power of the cloud, and what makes me so excited about it.
+For some industries, this has been game changing,
+and the reason why the cloud has accelerated the potential of many
+organizations.
+The word elastic also means that the instance is resizable.
+So you can actually start by choosing a very low specification for the instance,
+and if you need more Ram or CPU power, you can turn the machine off,
+select a new instance type and then turn it back on,
+and the instance will immediately resume,
+but with the new specs you have chosen,
+and this table shows just a few of the hundreds of different instance types AWS
+have on offer. From the low powered T3.nano instance,
+which only has two virtual CPU's and half a gig of Ram.
+It only costs $0.0052 an hour to run.
+All the way up to the X1E, a memory optimized instance,
+powered by Intel Xeon processes,
+which offers 128 virtual CPU's and almost 4,000
+gigabytes of Ram and 2,
+1,920 gigabytes solid state disks,
+which goes for $26.69 an hour.
+There's an instance type,
+no matter what your workload and the immediate upgrade possibility is a
+huge benefit,
+that just couldn't happen in the old server rooms we used to run our servers.
+Okay, that's all I have to say about EC2.
+It was one of the original services AWS offered,
+and you can see why it was a game changer. Thanks for watching.
+If you have any questions, please let me know. Otherwise,
+feel free to move on to the next lecture.

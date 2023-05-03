@@ -34,3 +34,5 @@ content:
     content:
       - code: 4-1-considering-compute
         title: Considering Compute
+      - code: 4-2-exploring-ec2
+        title: Exploring EC2
