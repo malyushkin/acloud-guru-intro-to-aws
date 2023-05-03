@@ -27,4 +27,7 @@ content:
         title: Illustrating IAM
       - code: 3-3-summarizing-secrets-manager
         title: Summarizing Secrets Manager
+      - code: 3-4-demonstrating-directory-service
+        title: Demonstrating Directory Service
+
 
