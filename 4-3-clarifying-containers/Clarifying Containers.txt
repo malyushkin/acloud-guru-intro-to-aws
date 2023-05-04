@@ -1,0 +1,56 @@
+Hello, Cloud Gurus and welcome to Clarifying Containers. In this lesson,
+I'm going to do my best to explain what containers are and how they work.
+I have a really simple example for you here.
+We have a programmer and he writes some code. When a programmer writes code,
+they will usually include libraries. Now,
+despite my horrible representation here,
+libraries are actually just pieces of programming code that someone else writes,
+so you can include it in your programs to save time and effort.
+So say we wanted to host a webpage with your program and you're writing in
+JavaScript. You don't have to write your own web server program.
+You can simply include one that has been pre-written for you,
+and then configure it how you need it. Let's take a look at an example.
+This code right here is all the code needed to run your own web server.
+Thanks to someone creating this nodeJS HTTP library.
+This benefits everyone around the world. Millions,
+if not billions of hours of programming have been saved simply by using
+libraries that other people have provided for free. Using libraries, however,
+can create an issue.
+If the person who writes the library updates it to fix bugs or to add new
+features, that means multiple versions of their library exists.
+This is part of the packages file,
+which describes the libraries that a nodeJS application uses.
+You can see it requires axios 0.21.0 and
+express 4.17.1.
+nodeJS is nice enough to list the specific versions the application requires,
+but not all programming languages do this.
+Sometimes it's simply a name without a version specified,
+and then if you wanted to run your program on a different computer,
+they might have the library used, but it might be a newer or older version,
+and it might not work the same way. Also, not just the libraries,
+but the language your programmers are developing in, change versions too.
+Python and nodeJS, 2 popular web programming languages,
+both have various versions that people have been developing in for the past few
+years and not everyone updates to the latest one right away.
+And they might have more than 1 installed on the computer as well.
+And all of these things can cause problems when you're trying to run your code
+on different computers.
+The purpose of a container is to create a package of your program and all of
+its libraries and dependencies that it uses,
+all the specific versions you have been developing with,
+to produce an image that can be run on any computer around the world,
+without issue. You are effectively creating a program,
+in a little self-contained computer, just to ensure it runs properly.
+This is what a container is, and once created, you can deploy them anywhere.
+AWS has their contain container service,
+that I mentioned in the section summary video,
+and that was called Amazon Elastic Container Service,
+where you can deploy your container images to AWS.
+Your programmers can develop whatever they're working on at home, on a laptop.
+They can be anywhere in the world and they can be absolutely sure when they
+deploy it to the cloud container service,
+it will run how it did on their computer at home.
+This is the beauty of containers and it's why they were created.
+Thank you for watching. I hope that clears up containers for you.
+If you have any questions, please let me know. Otherwise,
+feel free to move on to the next lesson.
