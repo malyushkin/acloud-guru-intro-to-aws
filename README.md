@@ -18,3 +18,4 @@
 ## Chapter 4
 1. Considering Compute
 1. Exploring EC2
+1. Clarifying Containers

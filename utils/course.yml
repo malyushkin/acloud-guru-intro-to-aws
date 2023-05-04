@@ -36,3 +36,5 @@ content:
         title: Considering Compute
       - code: 4-2-exploring-ec2
         title: Exploring EC2
+      - code: 4-3-clarifying-containers
+        title: Clarifying Containers
